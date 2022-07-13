@@ -1,3 +1,4 @@
+package modelo;
 
 public class Empregado {
 	private String nome;
@@ -36,5 +37,10 @@ public class Empregado {
 
 	public void setId(int id) {
 		this.id = id;
+	}
+	
+	@Override
+	public String toString() {
+		return "("+this.id+") "+this.nome+" - "+this.email;
 	}
 }

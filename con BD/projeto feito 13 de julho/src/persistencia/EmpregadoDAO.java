@@ -1,28 +1,21 @@
+package persistencia;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PersistEmpregado {
-	public Connection getConexao() {
-		String login = "postgres";
-		String senha = "postgres";
-		String urlcon = "jdbc:postgresql://localhost:5432/Teste1";
-		Connection con = null;
-		try {
-			con = DriverManager.getConnection(urlcon, login, senha);
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		return con;
-	}
+import modelo.Empregado;
+//DAO Data Access Object
 
+public class EmpregadoDAO implements DAO<Empregado> {
+	
+	@Override
 	public void inserir(Empregado e) {
 		// criar a conexao
-		Connection con = this.getConexao();
+		Connection con = FabricaConexoes.getConexao();
 		// montar o SQL
 		String sql = "INSERT INTO empregado (nome, email) VALUES (?,?)";
 		
@@ -41,20 +34,44 @@ public class PersistEmpregado {
 		}
 	}
 
+	@Override
 	public void excluir(Empregado e) {
 		// criar conexao
 		// montar o SQL
 		// rodar o SQL
 	}
 
+	@Override
 	public List<Empregado> listar(int limit, int offset) {
 		var empregados = new ArrayList<Empregado>();
-		// criar conexao
 		// montar o SQL
+		String sql = "SELECT id, nome, email FROM empregado LIMIT ? OFFSET ?";
+		
 		// rodar o SQL
-		// tratar a resposta linha a linha
-		// para cada linha montar um Objeto
+		try(var con = FabricaConexoes.getConexao(); 
+			var pstm = con.prepareStatement(sql);) {
+			pstm.setInt(1, limit);
+			pstm.setInt(2, offset);
+			ResultSet resposta = pstm.executeQuery();
+			while(resposta.next()) {
+				var nome = resposta.getString("nome");
+				var email = resposta.getString("email");
+				var id = resposta.getInt("id");
+				Empregado e = new Empregado(nome, email, id);
+				empregados.add(e);
+			}
+			pstm.close();
+			
+		} catch (SQLException exp) {
+			// TODO Auto-generated catch block
+			System.out.println(exp.getMessage());
+			exp.printStackTrace();
+		}
 		return empregados;
 	}
-
+	
+	@Override
+	public void Alterar(Empregado e) {
+		//TODO: tem q fazer esse!
+	}
 }
