@@ -12,6 +12,5 @@ public interface  DAO<T> {
 
 	List<T> listar(int limit, int offset);
 
-	void Alterar(T e);
-
+	void alterar(T e);
 }

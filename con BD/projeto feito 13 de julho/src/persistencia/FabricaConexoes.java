@@ -8,7 +8,7 @@ public class FabricaConexoes {
 	public static Connection getConexao() {
 		String login = "postgres";
 		String senha = "postgres";
-		String urlcon = "jdbc:postgresql://localhost:5432/Teste1";
+		String urlcon = "jdbc:postgresql://localhost:5432/javaDatabase";
 		Connection con = null;
 		try {
 			con = DriverManager.getConnection(urlcon, login, senha);
