@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/carpeado/Downloads/postgresql-42.2.26.jar"
+    ]
+}

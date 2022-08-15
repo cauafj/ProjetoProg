@@ -7,22 +7,24 @@ public class Empregado {
 	private String email;
 	private LocalDate dataNascimento;
 	private int id;
+	private Departamento departamento;
 
-	public Empregado(String nome, String email) {
-		super();
+	
+	public Empregado(String nome, String email, LocalDate dataNascimento) {
 		this.nome = nome;
 		this.email = email;
-	}
-	public Empregado(String nome, String email, LocalDate dataNascimento) {
-		this(nome, email);
 		this.dataNascimento = dataNascimento;
-	}
-	public Empregado(String nome, String email, int id) {
-		this(nome, email);
-		this.id = id;
 	}
 	public Empregado(String nome, String email, LocalDate dataNascimento, int id) {
 		this(nome, email, dataNascimento);
+		this.id = id;
+	}
+	public Empregado(String nome, String email, LocalDate dataNascimento, Departamento depto) {
+		this(nome, email, dataNascimento);
+		this.departamento = depto;
+	}
+	public Empregado(String nome, String email, LocalDate dataNascimento, Departamento depto, int id) {
+		this(nome, email, dataNascimento, depto);
 		this.id = id;
 	}
 
@@ -59,10 +61,21 @@ public class Empregado {
 		this.dataNascimento = dataNascimento;
 	}
 
+	public Departamento getDepartamento() {
+		return departamento;
+	}
+
+	public void setDepartamento(Departamento departamento) {
+		departamento = departamento;
+	}
+
 	@Override
 	public String toString() {
-		return String.format("(%d) - nome = %s \n\t email = %s \n\t datanascimento = %02d/%02d/%04d",
+		return String.format("Id: %d, Nome: %s, Email: %s, Data de nascimento: %02d, %02d, %04d",
 			this.id, this.nome, this.email, this.dataNascimento.getDayOfMonth(), this.dataNascimento.getMonthValue(), this.dataNascimento.getYear());
 	}
+
+	
+	
 	
 }

@@ -3,26 +3,30 @@ package testes;
 import java.time.LocalDate;
 import java.util.List;
 
+import modelo.Departamento;
 import modelo.Empregado;
 import persistencia.DAO;
+import persistencia.DepartamentoDAO;
 import persistencia.EmpregadoDAO;
 
 public class TesteBD {
 
 	public static void main(String[] args) {
-		System.out.println("ola");
-		System.out.println("ola2");
-		
-		Empregado e = new Empregado("Teste", "teste@gmail.com", LocalDate.of(2000, 12, 3));
-		
+
 		DAO pe = new EmpregadoDAO();
-		
+		DAO pd = new DepartamentoDAO();
+
+		Departamento rh = new Departamento("rh");
+		pd.inserir(rh);
+
+		Empregado e = new Empregado("Teste", "teste@gmail.com", LocalDate.of(2000, 12, 3), rh);
 		pe.inserir(e);
+
+		System.out.println(rh.getId());
+		System.out.println(e.getId());
 		
-		List<Empregado> emps = pe.listar(10, 0);
-		for (Empregado emp: emps) {
-			System.out.println(emp);
-		}
+
+		
 	}
 
 }
