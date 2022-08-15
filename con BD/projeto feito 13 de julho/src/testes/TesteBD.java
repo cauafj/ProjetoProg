@@ -1,8 +1,6 @@
 package testes;
 
 import java.time.LocalDate;
-import java.util.List;
-
 import modelo.Departamento;
 import modelo.Empregado;
 import persistencia.DAO;

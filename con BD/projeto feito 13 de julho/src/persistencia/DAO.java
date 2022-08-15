@@ -2,8 +2,6 @@ package persistencia;
 
 import java.util.List;
 
-import modelo.Empregado;
-
 public interface  DAO<T> {
 
 	void inserir(T e);
