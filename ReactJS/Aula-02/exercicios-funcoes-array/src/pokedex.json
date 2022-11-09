@@ -1,0 +1,494 @@
+[
+  {
+    "id": 1,
+    "name": "bulbasaur",
+    "height": 7,
+    "weight": 69,
+    "stats": [
+      { "name": "hp", "value": 45 },
+      { "name": "attack", "value": 49 },
+      { "name": "defense", "value": 49 },
+      { "name": "speed", "value": 45 }
+    ],
+    "types": ["grass", "poison"],
+    "moves": [
+      { "name": "vine-whip", "levelLearnedAt": 13 },
+      { "name": "tackle", "levelLearnedAt": 1 },
+      { "name": "growl", "levelLearnedAt": 1 },
+      { "name": "leech-seed", "levelLearnedAt": 7 },
+      { "name": "growth", "levelLearnedAt": 34 },
+      { "name": "razor-leaf", "levelLearnedAt": 27 },
+      { "name": "solar-beam", "levelLearnedAt": 48 },
+      { "name": "poison-powder", "levelLearnedAt": 20 },
+      { "name": "sleep-powder", "levelLearnedAt": 41 }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "charmander",
+    "height": 6,
+    "weight": 85,
+    "stats": [
+      { "name": "hp", "value": 39 },
+      { "name": "attack", "value": 52 },
+      { "name": "defense", "value": 43 },
+      { "name": "speed", "value": 65 }
+    ],
+    "types": ["fire"],
+    "moves": [
+      { "name": "scratch", "levelLearnedAt": 1 },
+      { "name": "leer", "levelLearnedAt": 15 },
+      { "name": "growl", "levelLearnedAt": 1 },
+      { "name": "ember", "levelLearnedAt": 9 },
+      { "name": "flamethrower", "levelLearnedAt": 38 },
+      { "name": "fire-spin", "levelLearnedAt": 46 },
+      { "name": "rage", "levelLearnedAt": 22 },
+      { "name": "slash", "levelLearnedAt": 30 }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "squirtle",
+    "height": 5,
+    "weight": 90,
+    "stats": [
+      { "name": "hp", "value": 44 },
+      { "name": "attack", "value": 48 },
+      { "name": "defense", "value": 65 },
+      { "name": "speed", "value": 43 }
+    ],
+    "types": ["water"],
+    "moves": [
+      { "name": "tackle", "levelLearnedAt": 1 },
+      { "name": "tail-whip", "levelLearnedAt": 1 },
+      { "name": "bite", "levelLearnedAt": 22 },
+      { "name": "water-gun", "levelLearnedAt": 15 },
+      { "name": "hydro-pump", "levelLearnedAt": 42 },
+      { "name": "withdraw", "levelLearnedAt": 28 },
+      { "name": "skull-bash", "levelLearnedAt": 35 },
+      { "name": "bubble", "levelLearnedAt": 8 }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "butterfree",
+    "height": 11,
+    "weight": 320,
+    "stats": [
+      { "name": "hp", "value": 60 },
+      { "name": "attack", "value": 45 },
+      { "name": "defense", "value": 50 },
+      { "name": "speed", "value": 70 }
+    ],
+    "types": ["bug", "flying"],
+    "moves": [
+      { "name": "whirlwind", "levelLearnedAt": 26 },
+      { "name": "supersonic", "levelLearnedAt": 21 },
+      { "name": "psybeam", "levelLearnedAt": 32 },
+      { "name": "poison-powder", "levelLearnedAt": 15 },
+      { "name": "stun-spore", "levelLearnedAt": 16 },
+      { "name": "sleep-powder", "levelLearnedAt": 17 },
+      { "name": "confusion", "levelLearnedAt": 1 }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "pidgeotto",
+    "height": 11,
+    "weight": 300,
+    "stats": [
+      { "name": "hp", "value": 63 },
+      { "name": "attack", "value": 60 },
+      { "name": "defense", "value": 55 },
+      { "name": "speed", "value": 71 }
+    ],
+    "types": ["normal", "flying"],
+    "moves": [
+      { "name": "gust", "levelLearnedAt": 1 },
+      { "name": "wing-attack", "levelLearnedAt": 31 },
+      { "name": "whirlwind", "levelLearnedAt": 21 },
+      { "name": "sand-attack", "levelLearnedAt": 1 },
+      { "name": "agility", "levelLearnedAt": 40 },
+      { "name": "quick-attack", "levelLearnedAt": 12 },
+      { "name": "mirror-move", "levelLearnedAt": 49 }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "pikachu",
+    "height": 4,
+    "weight": 60,
+    "stats": [
+      { "name": "hp", "value": 35 },
+      { "name": "attack", "value": 55 },
+      { "name": "defense", "value": 40 },
+      { "name": "speed", "value": 90 }
+    ],
+    "types": ["electric"],
+    "moves": [
+      { "name": "growl", "levelLearnedAt": 1 },
+      { "name": "thunder-shock", "levelLearnedAt": 1 },
+      { "name": "thunder-wave", "levelLearnedAt": 9 },
+      { "name": "thunder", "levelLearnedAt": 43 },
+      { "name": "agility", "levelLearnedAt": 33 },
+      { "name": "quick-attack", "levelLearnedAt": 16 },
+      { "name": "swift", "levelLearnedAt": 26 }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "vulpix",
+    "height": 6,
+    "weight": 99,
+    "stats": [
+      { "name": "hp", "value": 38 },
+      { "name": "attack", "value": 41 },
+      { "name": "defense", "value": 40 },
+      { "name": "speed", "value": 65 }
+    ],
+    "types": ["fire"],
+    "moves": [
+      { "name": "tail-whip", "levelLearnedAt": 1 },
+      { "name": "roar", "levelLearnedAt": 21 },
+      { "name": "ember", "levelLearnedAt": 1 },
+      { "name": "flamethrower", "levelLearnedAt": 35 },
+      { "name": "fire-spin", "levelLearnedAt": 42 },
+      { "name": "quick-attack", "levelLearnedAt": 16 },
+      { "name": "confuse-ray", "levelLearnedAt": 28 }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "zubat",
+    "height": 8,
+    "weight": 75,
+    "stats": [
+      { "name": "hp", "value": 40 },
+      { "name": "attack", "value": 45 },
+      { "name": "defense", "value": 35 },
+      { "name": "speed", "value": 55 }
+    ],
+    "types": ["poison", "flying"],
+    "moves": [
+      { "name": "wing-attack", "levelLearnedAt": 28 },
+      { "name": "bite", "levelLearnedAt": 15 },
+      { "name": "supersonic", "levelLearnedAt": 10 },
+      { "name": "confuse-ray", "levelLearnedAt": 21 },
+      { "name": "haze", "levelLearnedAt": 36 },
+      { "name": "leech-life", "levelLearnedAt": 1 }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "diglett",
+    "height": 2,
+    "weight": 8,
+    "stats": [
+      { "name": "hp", "value": 10 },
+      { "name": "attack", "value": 55 },
+      { "name": "defense", "value": 25 },
+      { "name": "speed", "value": 95 }
+    ],
+    "types": ["ground"],
+    "moves": [
+      { "name": "scratch", "levelLearnedAt": 1 },
+      { "name": "sand-attack", "levelLearnedAt": 24 },
+      { "name": "growl", "levelLearnedAt": 15 },
+      { "name": "earthquake", "levelLearnedAt": 40 },
+      { "name": "dig", "levelLearnedAt": 19 },
+      { "name": "slash", "levelLearnedAt": 31 }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "primeape",
+    "height": 10,
+    "weight": 320,
+    "stats": [
+      { "name": "hp", "value": 65 },
+      { "name": "attack", "value": 105 },
+      { "name": "defense", "value": 60 },
+      { "name": "speed", "value": 95 }
+    ],
+    "types": ["fighting"],
+    "moves": [
+      { "name": "karate-chop", "levelLearnedAt": 1 },
+      { "name": "scratch", "levelLearnedAt": 1 },
+      { "name": "thrash", "levelLearnedAt": 46 },
+      { "name": "leer", "levelLearnedAt": 1 },
+      { "name": "seismic-toss", "levelLearnedAt": 37 },
+      { "name": "focus-energy", "levelLearnedAt": 27 },
+      { "name": "fury-swipes", "levelLearnedAt": 1 }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "abra",
+    "height": 9,
+    "weight": 195,
+    "stats": [
+      { "name": "hp", "value": 25 },
+      { "name": "attack", "value": 20 },
+      { "name": "defense", "value": 15 },
+      { "name": "speed", "value": 90 }
+    ],
+    "types": ["psychic"],
+    "moves": [{ "name": "teleport", "levelLearnedAt": 1 }]
+  },
+  {
+    "id": 72,
+    "name": "tentacool",
+    "height": 9,
+    "weight": 455,
+    "stats": [
+      { "name": "hp", "value": 40 },
+      { "name": "attack", "value": 40 },
+      { "name": "defense", "value": 35 },
+      { "name": "speed", "value": 70 }
+    ],
+    "types": ["water", "poison"],
+    "moves": [
+      { "name": "wrap", "levelLearnedAt": 13 },
+      { "name": "poison-sting", "levelLearnedAt": 18 },
+      { "name": "supersonic", "levelLearnedAt": 7 },
+      { "name": "acid", "levelLearnedAt": 1 },
+      { "name": "water-gun", "levelLearnedAt": 22 },
+      { "name": "hydro-pump", "levelLearnedAt": 48 },
+      { "name": "screech", "levelLearnedAt": 40 },
+      { "name": "barrier", "levelLearnedAt": 33 },
+      { "name": "constrict", "levelLearnedAt": 27 }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "geodude",
+    "height": 4,
+    "weight": 200,
+    "stats": [
+      { "name": "hp", "value": 40 },
+      { "name": "attack", "value": 80 },
+      { "name": "defense", "value": 100 },
+      { "name": "speed", "value": 20 }
+    ],
+    "types": ["rock", "ground"],
+    "moves": [
+      { "name": "tackle", "levelLearnedAt": 1 },
+      { "name": "rock-throw", "levelLearnedAt": 16 },
+      { "name": "earthquake", "levelLearnedAt": 31 },
+      { "name": "harden", "levelLearnedAt": 26 },
+      { "name": "defense-curl", "levelLearnedAt": 11 },
+      { "name": "self-destruct", "levelLearnedAt": 21 },
+      { "name": "explosion", "levelLearnedAt": 36 }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "ponyta",
+    "height": 10,
+    "weight": 300,
+    "stats": [
+      { "name": "hp", "value": 50 },
+      { "name": "attack", "value": 85 },
+      { "name": "defense", "value": 55 },
+      { "name": "speed", "value": 90 }
+    ],
+    "types": ["fire"],
+    "moves": [
+      { "name": "stomp", "levelLearnedAt": 32 },
+      { "name": "take-down", "levelLearnedAt": 43 },
+      { "name": "tail-whip", "levelLearnedAt": 30 },
+      { "name": "growl", "levelLearnedAt": 35 },
+      { "name": "ember", "levelLearnedAt": 1 },
+      { "name": "fire-spin", "levelLearnedAt": 39 },
+      { "name": "agility", "levelLearnedAt": 48 }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "muk",
+    "height": 12,
+    "weight": 300,
+    "stats": [
+      { "name": "hp", "value": 105 },
+      { "name": "attack", "value": 105 },
+      { "name": "defense", "value": 75 },
+      { "name": "speed", "value": 50 }
+    ],
+    "types": ["poison"],
+    "moves": [
+      { "name": "pound", "levelLearnedAt": 1 },
+      { "name": "disable", "levelLearnedAt": 1 },
+      { "name": "screech", "levelLearnedAt": 53 },
+      { "name": "harden", "levelLearnedAt": 45 },
+      { "name": "minimize", "levelLearnedAt": 33 },
+      { "name": "sludge", "levelLearnedAt": 37 },
+      { "name": "poison-gas", "levelLearnedAt": 1 },
+      { "name": "acid-armor", "levelLearnedAt": 60 }
+    ]
+  },
+  {
+    "id": 95,
+    "name": "onix",
+    "height": 88,
+    "weight": 2100,
+    "stats": [
+      { "name": "hp", "value": 35 },
+      { "name": "attack", "value": 45 },
+      { "name": "defense", "value": 160 },
+      { "name": "speed", "value": 70 }
+    ],
+    "types": ["rock", "ground"],
+    "moves": [
+      { "name": "bind", "levelLearnedAt": 15 },
+      { "name": "slam", "levelLearnedAt": 33 },
+      { "name": "tackle", "levelLearnedAt": 1 },
+      { "name": "rock-throw", "levelLearnedAt": 19 },
+      { "name": "rage", "levelLearnedAt": 25 },
+      { "name": "screech", "levelLearnedAt": 1 },
+      { "name": "harden", "levelLearnedAt": 43 }
+    ]
+  },
+  {
+    "id": 104,
+    "name": "cubone",
+    "height": 4,
+    "weight": 65,
+    "stats": [
+      { "name": "hp", "value": 50 },
+      { "name": "attack", "value": 50 },
+      { "name": "defense", "value": 95 },
+      { "name": "speed", "value": 35 }
+    ],
+    "types": ["ground"],
+    "moves": [
+      { "name": "thrash", "levelLearnedAt": 38 },
+      { "name": "leer", "levelLearnedAt": 25 },
+      { "name": "growl", "levelLearnedAt": 1 },
+      { "name": "rage", "levelLearnedAt": 46 },
+      { "name": "focus-energy", "levelLearnedAt": 31 },
+      { "name": "bone-club", "levelLearnedAt": 1 },
+      { "name": "bonemerang", "levelLearnedAt": 43 }
+    ]
+  },
+  {
+    "id": 125,
+    "name": "electabuzz",
+    "height": 11,
+    "weight": 300,
+    "stats": [
+      { "name": "hp", "value": 65 },
+      { "name": "attack", "value": 83 },
+      { "name": "defense", "value": 57 },
+      { "name": "speed", "value": 105 }
+    ],
+    "types": ["electric"],
+    "moves": [
+      { "name": "thunder-punch", "levelLearnedAt": 42 },
+      { "name": "leer", "levelLearnedAt": 1 },
+      { "name": "thunder-shock", "levelLearnedAt": 34 },
+      { "name": "thunder", "levelLearnedAt": 54 },
+      { "name": "quick-attack", "levelLearnedAt": 1 },
+      { "name": "screech", "levelLearnedAt": 37 },
+      { "name": "light-screen", "levelLearnedAt": 49 }
+    ]
+  },
+  {
+    "id": 130,
+    "name": "gyarados",
+    "height": 65,
+    "weight": 2350,
+    "stats": [
+      { "name": "hp", "value": 95 },
+      { "name": "attack", "value": 125 },
+      { "name": "defense", "value": 79 },
+      { "name": "speed", "value": 81 }
+    ],
+    "types": ["water", "flying"],
+    "moves": [
+      { "name": "leer", "levelLearnedAt": 1 },
+      { "name": "bite", "levelLearnedAt": 1 },
+      { "name": "hydro-pump", "levelLearnedAt": 1 },
+      { "name": "hyper-beam", "levelLearnedAt": 52 },
+      { "name": "dragon-rage", "levelLearnedAt": 1 }
+    ]
+  },
+  {
+    "id": 143,
+    "name": "snorlax",
+    "height": 21,
+    "weight": 4600,
+    "stats": [
+      { "name": "hp", "value": 160 },
+      { "name": "attack", "value": 110 },
+      { "name": "defense", "value": 65 },
+      { "name": "speed", "value": 30 }
+    ],
+    "types": ["normal"],
+    "moves": [
+      { "name": "headbutt", "levelLearnedAt": 1 },
+      { "name": "body-slam", "levelLearnedAt": 35 },
+      { "name": "double-edge", "levelLearnedAt": 48 },
+      { "name": "hyper-beam", "levelLearnedAt": 56 },
+      { "name": "harden", "levelLearnedAt": 41 },
+      { "name": "amnesia", "levelLearnedAt": 1 },
+      { "name": "rest", "levelLearnedAt": 1 }
+    ]
+  },
+  {
+    "id": 150,
+    "name": "mewtwo",
+    "height": 20,
+    "weight": 1220,
+    "stats": [
+      { "name": "hp", "value": 106 },
+      { "name": "attack", "value": 110 },
+      { "name": "defense", "value": 90 },
+      { "name": "speed", "value": 130 }
+    ],
+    "types": ["psychic"],
+    "moves": [
+      { "name": "disable", "levelLearnedAt": 1 },
+      { "name": "mist", "levelLearnedAt": 75 },
+      { "name": "confusion", "levelLearnedAt": 1 },
+      { "name": "psychic", "levelLearnedAt": 1 },
+      { "name": "recover", "levelLearnedAt": 70 },
+      { "name": "barrier", "levelLearnedAt": 63 },
+      { "name": "swift", "levelLearnedAt": 1 },
+      { "name": "amnesia", "levelLearnedAt": 81 }
+    ]
+  },
+  {
+    "id": 151,
+    "name": "mew",
+    "height": 4,
+    "weight": 40,
+    "stats": [
+      { "name": "hp", "value": 100 },
+      { "name": "attack", "value": 100 },
+      { "name": "defense", "value": 100 },
+      { "name": "speed", "value": 100 }
+    ],
+    "types": ["psychic"],
+    "moves": [
+      { "name": "pound", "levelLearnedAt": 1 },
+      { "name": "mega-punch", "levelLearnedAt": 20 },
+      { "name": "psychic", "levelLearnedAt": 40 },
+      { "name": "metronome", "levelLearnedAt": 30 },
+      { "name": "transform", "levelLearnedAt": 10 }
+    ]
+  },
+  {
+    "id": 152,
+    "name": "chikorita",
+    "height": 5,
+    "weight": 64,
+    "stats": [
+      { "name": "hp", "value": 45 },
+      { "name": "attack", "value": 49 },
+      { "name": "defense", "value": 65 },
+      { "name": "speed", "value": 45 }
+    ],
+    "types": ["grass"],
+    "moves": []
+  }
+]
